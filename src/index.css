@@ -1,0 +1,237 @@
+@font-face {
+  font-family: 'barlow-semi-condensed';
+  src: url('../fonts/BarlowSemiCondensed-Bold.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: 'barlow-semi-condensed';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(circle at center, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+}
+
+.app {
+  height: 600px;
+}
+
+#game {
+  height: 400px;
+  margin-top: 10px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#score-board {
+  width: 500px;
+  border: solid hsl(217, 16%, 45%) 3px;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+#score {
+  background-color: white;
+  border-radius: 15px;
+  width: 130px;
+  height: 100px;
+  color: black;
+  align-self: center;
+}
+
+.badge-small {
+  background-color: white;
+  border-radius: 70px;
+  width: 100px;
+  height: 100px;
+}
+
+.badge-large {
+  background-color: white;
+  border-radius: 85px;
+  width: 120px;
+  height: 120px;
+}
+
+.paper {
+  border: solid hsl(230, 89%, 65%);
+  border-width: 20px;
+  box-shadow: 0px 7px lightgrey inset, 
+  0px 7px hsl(230, 89%, 55%), 
+  0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.scissors {
+  border: solid hsl(40, 84%, 53%);
+  border-width: 20px;
+  box-shadow: 0px 7px lightgrey inset, 
+  0px 7px hsl(39, 89%, 42%), 
+  0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.rock {
+  border: solid hsl(349, 70%, 56%);
+  border-width: 20px;
+  box-shadow: 0px 7px lightgrey inset, 
+  0px 7px hsl(349, 71%, 35%), 
+  0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.top-row {
+  grid-template-columns: repeat(2, 1fr);
+  margin: 20px 0px 0px 0px;
+  height: 200px;
+  width: 500px;
+}
+
+.bottom-row {
+  height: 200px;
+  width: 500px;
+}
+
+.circle {
+  background-color: hsl(237, 49%, 15%, 0.4);
+  border-radius: 50px;
+  margin: 30px;
+  width: 100px;
+  height: 100px;
+}
+
+button {
+  border-radius: 5px;
+  font-family: 'barlow-semi-condensed';
+  font-size: 10px;
+  padding: 5px;
+}
+
+.play-again-btn {
+  background-color: white;
+  border: none;
+  width: 100px;
+}
+
+.rules-btn {
+  background-color: transparent;
+  border: solid white;
+  border-width: 1px;
+  width: 75px;
+}
+
+.modal {
+  position: fixed;
+  margin-top: 175px;
+  justify-self: center;
+}
+
+#modal {
+  background-color: white;
+  width: 350px;
+  height: 350px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.modal-btn {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: solid hsl(217, 16%, 45%) 3px;
+  border-radius: 5px;
+  border-width: 2px;
+  font-size: 10px;
+}
+
+#rules {
+  margin-bottom: 10px;
+}
+
+.blue {
+  color: hsl(229, 64%, 46%);
+}
+
+.grey {
+  color: hsl(229, 25%, 31%);
+}
+
+.white {
+  color: white;
+}
+
+.red {
+  color: hsl(349, 71%, 52%);
+}
+
+.large {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.x-large {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.center-content {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.align-center {
+  display: grid;
+  align-content: center;
+}
+
+.align-right {
+  display: grid;
+  justify-content: end;
+}
+
+.align-center-right {
+  align-self: center;
+  justify-self: end;
+}
+
+.justify-center {
+  display: grid;
+  justify-content: center
+}
+
+.center-item {
+  place-self: center;
+}
+
+.align-right-item {
+  place-self: end;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.grid-column {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+.clickable:hover {
+  cursor: pointer;
+}
+
+.play-again-btn:hover {
+  color: hsl(229, 64%, 46%);
+}
+
+.badge-small:hover {
+  cursor: pointer;
+  border-radius: 85px;
+  width: 130px;
+  height: 130px;
+}
