@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/rock-paper-scissors/static/css/main.b9be9ecb.css",
+    "main.js": "/rock-paper-scissors/static/js/main.19c9705c.js",
+    "static/media/BarlowSemiCondensed-Bold.ttf": "/rock-paper-scissors/static/media/BarlowSemiCondensed-Bold.6454195504604ebe42c3.ttf",
+    "index.html": "/rock-paper-scissors/index.html",
+    "main.b9be9ecb.css.map": "/rock-paper-scissors/static/css/main.b9be9ecb.css.map",
+    "main.19c9705c.js.map": "/rock-paper-scissors/static/js/main.19c9705c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9be9ecb.css",
+    "static/js/main.19c9705c.js"
+  ]
+}
