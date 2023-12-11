@@ -18,7 +18,7 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Deployed at https://felicialyden.github.io/rock-paper-scissors/
 
 ## Built with
 
